@@ -28,7 +28,7 @@ export default function Home(){
         <>
         <Base/>
         {/* <h1 className="text-center">Hpme page</h1> */}
-        <div className="container">
+        <div className="container"style={{ marginBottom: '50px' }}>
             <div className="row">
                 {
                     products && products.map((products,index)=>{
